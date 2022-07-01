@@ -7,15 +7,15 @@ Upon completion, I decided that I wanted to take this algorithm and make it into
 I wanted to be able to take a picture of an empty sudoku puzzle and have the algorithm spit out the correct answers for said puzzle.
 After doing some research and buying a camera I was able to use the Raspberry Pi camera to take a picture of a sudoku puzzle in the format of:
 
-  400390072
-  005000010
-  010057806
-  004002000
-  070980000
-  092005001
-  001004050
-  800160000
-  009000007
+ 400390072
+ 005000010
+ 010057806
+ 004002000
+ 070980000
+ 092005001
+ 001004050
+ 800160000
+ 009000007
   
  and solve it.
  I, however, wasn't able to take a picture of a sudoku puzzle without the zero(representing empty spaces) and with the lines of the board.

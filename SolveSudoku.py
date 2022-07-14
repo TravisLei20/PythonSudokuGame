@@ -1,7 +1,7 @@
 SUDOKU_LENGTH = 9
 
 
-def puzzle(a):
+def printBoard(a):
     for i in range(SUDOKU_LENGTH):
         for j in range(SUDOKU_LENGTH):
             print(a[i][j], end=" ")

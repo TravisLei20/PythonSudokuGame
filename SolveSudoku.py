@@ -1,13 +1,6 @@
 SUDOKU_LENGTH = 9
 
 
-def printBoard(a):
-    for i in range(SUDOKU_LENGTH):
-        for j in range(SUDOKU_LENGTH):
-            print(a[i][j], end=" ")
-        print()
-
-
 def solveGame(grid, row, col, num):
     for x in range(SUDOKU_LENGTH):
         if grid[row][x] == num:
@@ -69,3 +62,10 @@ def validateGame(game):
     else:
         return False
     return True
+
+
+def printBoard(board):
+    for i in range(SUDOKU_LENGTH):
+        for j in range(SUDOKU_LENGTH):
+            print(board[i][j], end=" ")
+        print()
